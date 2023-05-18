@@ -40,7 +40,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
 # Load dataset
-url = "carprice.csv"
+url = "carprice.csv" #this must be update accourfing where is it in your pc 
 names = ['length','width','height','price','horsepower','engine-size','type']
 dataset = read_csv(url, names=names)
 
